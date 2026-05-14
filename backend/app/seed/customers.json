@@ -1,0 +1,84 @@
+[
+  {
+    "id": "customer-ayse-01",
+    "name": "Ayşe Kaya",
+    "segment": "new",
+    "address": "Kadıköy, İstanbul",
+    "region_code": "IST",
+    "interaction_history": [],
+    "total_co2_saved_kg": 0.0,
+    "eco_customer_badge": false
+  },
+  {
+    "id": "customer-mehmet-02",
+    "name": "Mehmet Demir",
+    "segment": "loyal",
+    "address": "Çankaya, Ankara",
+    "region_code": "ANK",
+    "interaction_history": [
+      {
+        "date": "2026-05-06",
+        "type": "green_delivery",
+        "summary": "Konsolide teslimatı seçti, 1.2 kg CO₂ kurtardı. 45 TL indirim aldı."
+      },
+      {
+        "date": "2026-04-21",
+        "type": "green_delivery",
+        "summary": "Konsolide teslimatı seçti, 0.8 kg CO₂ kurtardı."
+      },
+      {
+        "date": "2026-04-08",
+        "type": "purchase",
+        "summary": "Klavye ve mouse aldı, indirim istemedi."
+      },
+      {
+        "date": "2026-03-15",
+        "type": "negotiation",
+        "summary": "150 TL indirim ile uzlaşıldı, memnun ayrıldı."
+      },
+      {
+        "date": "2026-02-28",
+        "type": "green_delivery",
+        "summary": "Konsolide tercih etti, 1.0 kg CO₂ kurtardı."
+      }
+    ],
+    "total_co2_saved_kg": 3.0,
+    "eco_customer_badge": true
+  },
+  {
+    "id": "customer-can-03",
+    "name": "Can Yılmaz",
+    "segment": "bargain_hunter",
+    "address": "Konak, İzmir",
+    "region_code": "IZM",
+    "interaction_history": [
+      {
+        "date": "2026-05-01",
+        "type": "negotiation",
+        "summary": "200 TL indirim istedi, 120 TL ile uzlaşıldı."
+      },
+      {
+        "date": "2026-04-18",
+        "type": "negotiation",
+        "summary": "Hediye ürün istedi, kulaklık kılıfı verildi."
+      },
+      {
+        "date": "2026-04-02",
+        "type": "negotiation",
+        "summary": "Ücretsiz kargo ile anlaştı."
+      },
+      {
+        "date": "2026-03-20",
+        "type": "negotiation",
+        "summary": "Bundle teklifi kabul etti."
+      },
+      {
+        "date": "2026-02-14",
+        "type": "negotiation",
+        "summary": "100 TL indirim ile anlaştı."
+      }
+    ],
+    "total_co2_saved_kg": 0.5,
+    "eco_customer_badge": false
+  }
+]

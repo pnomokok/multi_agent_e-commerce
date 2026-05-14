@@ -1,0 +1,13 @@
+[
+  {
+    "id": "seller-techstore-01",
+    "name": "TechStore",
+    "monthly_negotiation_budget": 8000.0,
+    "monthly_negotiation_spent": 1250.0,
+    "min_margin_target": 0.12,
+    "eco_seller_badge": true,
+    "total_co2_saved_kg": 47.3,
+    "negotiation_active": true,
+    "segment_strategy": "balanced"
+  }
+]
