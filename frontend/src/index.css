@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  /* === Fonts === */
+  --font-family-sans: Inter, system-ui, sans-serif;
+  --font-family-display: "Hanken Grotesk", sans-serif;
+  --font-family-mono: "JetBrains Mono", monospace;
+
+  /* === Brand Colors === */
+  --color-primary: #006c49;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #10b981;
+  --color-on-primary-container: #00422b;
+  --color-inverse-primary: #4edea3;
+  --color-primary-fixed: #6ffbbe;
+  --color-primary-fixed-dim: #4edea3;
+  --color-on-primary-fixed: #002113;
+  --color-on-primary-fixed-variant: #005236;
+
+  /* === Secondary (Blue) === */
+  --color-secondary: #0058be;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #2170e4;
+  --color-on-secondary-container: #fefcff;
+  --color-secondary-fixed: #d8e2ff;
+  --color-secondary-fixed-dim: #adc6ff;
+  --color-on-secondary-fixed: #001a42;
+  --color-on-secondary-fixed-variant: #004395;
+
+  /* === Tertiary (Red) === */
+  --color-tertiary: #a43a3a;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #fc7c78;
+  --color-on-tertiary-container: #711419;
+  --color-tertiary-fixed: #ffdad7;
+  --color-tertiary-fixed-dim: #ffb3af;
+  --color-on-tertiary-fixed: #410005;
+  --color-on-tertiary-fixed-variant: #842225;
+
+  /* === Surface === */
+  --color-background: #f4fbf4;
+  --color-on-background: #161d19;
+  --color-surface: #f4fbf4;
+  --color-surface-dim: #d4dcd5;
+  --color-surface-bright: #f4fbf4;
+  --color-surface-bg: #f9fafb;
+  --color-surface-card: #ffffff;
+  --color-surface-variant: #dde4dd;
+  --color-surface-tint: #006c49;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eef6ee;
+  --color-surface-container: #e8f0e9;
+  --color-surface-container-high: #e3eae3;
+  --color-surface-container-highest: #dde4dd;
+  --color-on-surface: #161d19;
+  --color-on-surface-variant: #3c4a42;
+  --color-inverse-surface: #2b322d;
+  --color-inverse-on-surface: #ebf3eb;
+  --color-outline: #6c7a71;
+  --color-outline-variant: #bbcabf;
+
+  /* === Semantic === */
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* === Functional === */
+  --color-eco-green: #10b981;
+  --color-trust-blue: #3b82f6;
+  --color-negotiation-gold: #f59e0b;
+  --color-danger-red: #ef4444;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+}
+
+/* Material Symbols default style */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 24px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background-color: #f9fafb;
+  color: #161d19;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Scrollbar thin */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #bbcabf; border-radius: 3px; }
